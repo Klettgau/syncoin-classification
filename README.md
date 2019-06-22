@@ -38,6 +38,7 @@ This project exposed myself to many different libraries , clustering techniques 
 ![NeuralNetwork](images/final007.png)
 
 ### Naive Bayes
+Gaussian Naive Bayes was employed and then compared to Multinomial Naive Bayes.
 ![Gaussian](images/final008.png)
 ![MultinomialNB](images/final009.png)
 ### Logistic Regression
@@ -49,6 +50,7 @@ In the begining phases of the project, I utilized kmeans clustering in order to 
 any possible relations or overlap in the set.A cursory glance was given to Agglomerative and Affinity Clustering.The big take away
 from these techniques are the hyper-parameters of each function can heavily influence the outcome of the analysis.[Wattenberg, et al] has a great
 article that visualizes the common issues that can occur with t-SNE.
+
 [Wattenberg, et al]:https://distill.pub/2016/misread-tsne/
 #### K-Means
 With minimal tuning of the hyper-parameters, the clustering supports the notion that  message types can overlap such as ISG and SUN/ISG.The black X
